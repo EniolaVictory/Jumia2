@@ -1,0 +1,119 @@
+.body{
+    background-color: bisque;
+    }
+    
+    .clr{
+        clear:both;
+    }
+    
+    .header{
+        background-color: blueviolet;
+    }
+    #logo{
+        color: black;
+        float: left;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-style: bold;
+        text-decoration: solid;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+    
+    #login{
+        float: right;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    
+    #cart{
+        float:inline-end;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    
+    #search-container {
+        position: relative;
+        width: 90%;
+        padding-left: 40px;
+        
+    }
+    #search {
+        width: 100%;
+        padding: 10px 0px 10px 10px; 
+        box-sizing: border-box;
+        right: 30px;
+        border-radius: 10px;
+    }
+    #searchbar {
+        position: absolute;
+        top: 50%;
+        right: 10px; 
+        transform: translateY(-50%);
+        width: 20px; 
+        height: 20px; 
+        pointer-events: none; 
+    }
+    .call{
+        background-color: brown;
+        width: 100%;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-display: initial;
+        height: 20px;
+        background-size: contain;
+        border-radius: 5px;
+    }
+    #line1{
+        background-color: brown;
+        width: 100%;
+        gap: 17.5px;
+        display: flex;
+    }
+    
+    .image1{
+        width: 196px;
+        height: fit-content;
+        border-radius: 4px; 
+        margin-left: 0.5px;
+        position: relative;
+        margin-right: 0.5px;
+        text-align: center center;
+        border: solid white 1px;
+    }
+    .text{
+        text-align: center;
+        text-decoration: none;
+        text-transform: capitalize;
+        width: auto;
+    }
+    
+    .container{
+        text-align: center;
+        color: brown;
+        font-size: larger;
+    
+    }
+    
+    #text1{
+        text-align: center;
+        display: flex;
+        font-size: 20px;
+        float: center; 
+    }
+    
+    
